@@ -1,0 +1,25 @@
+.navbar a:hover {
+    background-color: #ffffff9a;
+  
+  }
+  
+  body{
+    background-color: #072bce8e;
+  }
+
+  #inicio{
+    text-align: center;
+    padding: 100px;
+  }
+
+  #lista{
+    text-align: left;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+  }

@@ -1,0 +1,241 @@
+.navbar a:hover {
+  background-color: #ffffff9a;
+
+}
+
+body {
+  background-image: url('../img/iconaguila.svg');
+  background-size: contain;
+  /* Para ajustar la imagen al tamaño del contenedor */
+  background-position: center;
+  /* Para centrar la imagen */
+  background-color: #58f8d58e;
+}
+
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+/*Directora*/
+.card-client {
+  background: #b52c5a;
+  width: 13rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 4px solid #da7cbb;
+  box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.card-client:hover {
+  transform: translateY(-10px);
+}
+
+.user-picture {
+  overflow: hidden;
+  object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+  border: 4px solid #7cdacc;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.user-picture svg {
+  width: 2.5rem;
+  fill: currentColor;
+}
+
+.name-client {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.name-client span {
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.social-media:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+  background: #7cdacc;
+}
+
+.social-media a {
+  position: relative;
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a svg {
+  width: 1.1rem;
+  fill: currentColor;
+}
+
+/*-- Tooltip Social Media --*/
+.tooltip-social {
+  background: #262626;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding: 0.5rem 0.4rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -90%);
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.tooltip-social:after {
+  content: " ";
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  border: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: transparent;
+  transform: translate(-50%, 100%);
+}
+
+.social-media a .tooltip-social:after {
+  border-top-color: #262626;
+}
+
+.social-media a:hover .tooltip-social {
+  opacity: 1;
+  transform: translate(-50%, -130%);
+}
+
+/*Mercadotecnia y finanzas*/
+.card-clientM {
+  background: #f532aacc;
+  width: 13rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 4px solid #f532db;
+  box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.card-clientM:hover {
+  transform: translateY(-10px);
+}
+
+.name-clientM {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.name-clientM span {
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+/*acomodo en horizontal*/
+.container-parent {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+}
+
+.card-clientM {
+  /* Estilos de las tarjetas */
+  margin: 0 20px;
+  /* Espacio entre tarjetas */
+}
+
+/*ventas, sistemas y recursos humanos*/
+
+.card-clientF {
+  background: #c832f5cc;
+  width: 13rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 4px solid #c832f5;
+  box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.card-clientF:hover {
+  transform: translateY(-10px);
+}
+
+.name-clientF {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.name-clientF span {
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+/*acomodo en horizontal*/
+.container-parent {
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  /* Centra verticalmente */
+}
+
+.card-clientF {
+  /* Estilos de las tarjetas */
+  margin: 0 20px;
+  /* Espacio entre tarjetas */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}

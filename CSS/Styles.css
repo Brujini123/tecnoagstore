@@ -1,0 +1,112 @@
+/*navbar*/
+
+.navbar a:hover {
+    background-color: #ffffff9a;
+
+}
+
+/*Section inicio*/
+
+#inicio {
+    background-color: rgba(84, 136, 248, 0.719);
+    text-align: center;
+    padding: 100px;
+}
+
+#inicio h1 {
+    font-size: 50px;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+/*Section nosotros*/
+
+#acerca {
+    background-color: rgba(84, 136, 248, 0.719);
+    text-align: center;
+    padding: 10px;
+}
+
+#acerca h1 {
+    font-size: 40px;
+}
+#nosotros {
+    background-color: rgba(84, 136, 248, 0.719);
+    text-align: center;
+    padding: 10px;
+}
+
+#nosotros h1 {
+    font-size: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.down{
+    animation-name:slideIn;
+    animation-duration: 1s;
+  }
+  
+  @keyframes slideIn{
+    from{transform: translateY(-2000%);}
+    to{transform: translateY(0);}
+  }
+
+  .col-sm-6{
+    animation-name:slideIn;
+    animation-duration: 1s;
+  }
+  
+  @keyframes slideIn{
+    from{transform: translateX(-2000%);}
+    to{transform: translateX(0);}
+  }
+
+/*Boton*/
+.btn {
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #8540b3;
+    min-width: 200px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 16px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .95;
+}
+
+.btn .animation {
+    border-radius: 100%;
+    animation: ripple 0.6s linear infinite;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
+    }
+}
