@@ -4,12 +4,13 @@
 }
 
 body{
-  background-color: #58f8d58e;
+  background-color: rgb(13, 39, 94);
 }
 
 .container {
   text-align: center;
   padding: 100px;
+  color: #fff;
 }
 
 .card{
