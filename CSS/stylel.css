@@ -6,12 +6,13 @@
 }
 
 body{
-  background-color: #e95aa19a;
+  background-color: rgb(67, 110, 202);
 }
 
 #container {
   text-align: center;
   padding: 100px;
+  color: #fff;
 }
 
 .wrapper{
@@ -231,13 +232,4 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: auto;
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
 }

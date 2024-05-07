@@ -8,7 +8,7 @@
 /*Section inicio*/
 
 #inicio {
-    background-color: rgba(84, 136, 248, 0.719);
+    background-color: rgb(13, 39, 94);
     text-align: center;
     padding: 100px;
 }
@@ -24,7 +24,7 @@
 /*Section nosotros*/
 
 #acerca {
-    background-color: rgba(84, 136, 248, 0.719);
+    background-color: rgb(13, 39, 94);
     text-align: center;
     padding: 10px;
 }
@@ -32,14 +32,18 @@
 #acerca h1 {
     font-size: 40px;
 }
-#nosotros {
-    background-color: rgba(84, 136, 248, 0.719);
+.nosotros {
+    background-color: rgb(13, 39, 94);
     text-align: center;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 #nosotros h1 {
     font-size: 40px;
+}
+
+.text{
+    color: #fff;
 }
 
 footer {
