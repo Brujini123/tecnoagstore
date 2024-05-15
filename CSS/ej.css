@@ -9,7 +9,8 @@ body{
 
 .container {
   text-align: center;
-  padding: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
   color: #fff;
 }
 
