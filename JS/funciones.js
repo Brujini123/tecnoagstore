@@ -12,8 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
             body.style.paddingTop = '0';
         }
 
-        document.getElementById('correo').addEventListener('click', function () {
+        document.getElementById('correoe').addEventListener('click', function () {
             window.location.href = 'mailto:erik.alj_ram@hotmail.com';
         });
     });
+});
+
+document.getElementById('correo').addEventListener('click', function () {
+    window.location.href = 'mailto:luis.fel_bs@outlook.com';
 });
